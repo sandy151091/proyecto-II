@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TuCompraApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TuCompraApp</h1>
+    <button id="verCarrito">Ver Carrito 🛒</button>
+  </header>
+
+  <main id="productos-container"></main>
+
+  <section id="carrito-modal" class="hidden">
+    <div class="modal-content">
+      <h2>Tu Carrito</h2>
+      <ul id="carrito-lista"></ul>
+      <p>Total: $<span id="total"></span></p>
+      <button id="comprarBtn">Comprar</button>
+      <button id="cerrarCarrito">Cerrar</button>
+    </div>
+  </section>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
